@@ -49,13 +49,6 @@
 
 Sơ đồ kiến trúc và các sơ đồ thiết kế chi tiết khác (Use Case, Class Diagram, Activity Diagram) được hiện thực trong báo cáo dự án
 
-Sơ lượt về UI của dự án:
-![](images/main_window.png "Giao diện Main_UI")
-
-![](C:\Users\win\BTL1-MMT-242\hoantatlivestream\hoantatlivestream\images\Screenshot 2025-05-20 181224.png "Giao diện đăng ký")
-
-![](C:\Users\win\BTL1-MMT-242\hoantatlivestream\hoantatlivestream\images\Screenshot 2025-05-20 181506.png "Giao diện Host Livestream")
-
 ## Công nghệ sử dụng
 
 * **Ngôn ngữ:** Python (phiên bản 3.8+)
