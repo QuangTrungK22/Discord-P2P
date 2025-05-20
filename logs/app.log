@@ -1,0 +1,29 @@
+2025-05-04 21:42:55,394 - __main__ - CRITICAL - Lỗi import: cannot import name 'MainWindow' from 'src.ui.main_window' (c:\Users\Cliche\Documents\Địa Thư\src\ui\main_window.py). Đảm bảo bạn đang chạy script từ thư mục gốc và cấu trúc thư mục đúng.
+Traceback (most recent call last):
+  File "c:\Users\Cliche\Documents\Địa Thư\main.py", line 26, in <module>
+    from src.ui.main_window import MainWindow
+ImportError: cannot import name 'MainWindow' from 'src.ui.main_window' (c:\Users\Cliche\Documents\Địa Thư\src\ui\main_window.py)
+2025-05-04 21:43:42,478 - __main__ - CRITICAL - Lỗi import: cannot import name 'AuthService' from 'src.api.auth' (c:\Users\Cliche\Documents\Địa Thư\src\api\auth.py). Đảm bảo bạn đang chạy script từ thư mục gốc và cấu trúc thư mục đúng.
+Traceback (most recent call last):
+  File "c:\Users\Cliche\Documents\Địa Thư\main.py", line 29, in <module>
+    from src.api.auth import AuthService
+ImportError: cannot import name 'AuthService' from 'src.api.auth' (c:\Users\Cliche\Documents\Địa Thư\src\api\auth.py)
+2025-05-04 21:45:55,762 - __main__ - CRITICAL - Lỗi import: cannot import name 'MainWindow' from 'src.ui.main_window' (c:\Users\Cliche\Documents\Địa Thư\src\ui\main_window.py). Đảm bảo chạy script từ thư mục gốc và cấu trúc thư mục đúng.
+Traceback (most recent call last):
+  File "c:\Users\Cliche\Documents\Địa Thư\main.py", line 26, in <module>
+    from src.ui.main_window import MainWindow
+ImportError: cannot import name 'MainWindow' from 'src.ui.main_window' (c:\Users\Cliche\Documents\Địa Thư\src\ui\main_window.py)
+2025-05-04 21:46:09,868 - __main__ - INFO - Bắt đầu vòng lặp sự kiện chính (PySide6 + Asyncio)...
+2025-05-04 21:46:09,873 - __main__ - INFO - --- Bắt đầu khởi chạy ứng dụng ---
+2025-05-04 21:46:09,885 - __main__ - CRITICAL - Lỗi không xác định trong quá trình chạy chính: module 'src.api.client' has no attribute 'supabase'
+Traceback (most recent call last):
+  File "c:\Users\Cliche\Documents\Địa Thư\main.py", line 156, in <module>
+    loop.run_until_complete(main_async())
+  File "C:\Users\Cliche\AppData\Local\Programs\Python\Python312\Lib\site-packages\qasync\__init__.py", line 409, in run_until_complete
+    return future.result()
+           ^^^^^^^^^^^^^^^
+  File "c:\Users\Cliche\Documents\Địa Thư\main.py", line 54, in main_async
+    if not api_client.supabase:
+           ^^^^^^^^^^^^^^^^^^^
+AttributeError: module 'src.api.client' has no attribute 'supabase'
+2025-05-04 21:46:09,888 - __main__ - INFO - --- Ứng dụng đã kết thúc ---
